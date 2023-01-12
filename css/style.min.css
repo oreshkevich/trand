@@ -966,15 +966,10 @@ textarea:-moz-placeholder {
 }
 @media (max-width: 44em) {
   html {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media (max-width: 38em) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (max-width: 34em) {
   html {
     font-size: 8px;
   }
