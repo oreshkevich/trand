@@ -426,12 +426,12 @@ textarea:-moz-placeholder {
 }
 
 .card__wrap {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  column-gap: 10px;
-  /* min-width: 0; */
+  column-gap: 10px; */
+  min-width: 0;
 }
 
 .card__item {
@@ -523,7 +523,7 @@ textarea:-moz-placeholder {
 .element__button {
   position: absolute;
   top: 6%;
-  right: 10px;
+  left: 138px;
   width: 44px;
   height: 44px;
   background-repeat: no-repeat;
