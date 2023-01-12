@@ -146,7 +146,7 @@ textarea:-moz-placeholder {
   position: relative;
   width: 32.125rem;
   height: 2.625rem;
-  margin-left: 57px;
+  margin-right: 57px;
 }
 
 .header__input {
@@ -283,6 +283,15 @@ textarea:-moz-placeholder {
 
 .header__active {
   padding-left: 5px;
+}
+
+.header__active-registration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__search-btn_hidden {
+  display: none;
 }
 
 .main {
@@ -665,7 +674,7 @@ textarea:-moz-placeholder {
 
 .advantages {
   padding-top: 12px;
-  padding-bottom: 10.8125rem;
+  padding-bottom: 4.5625rem;
 }
 
 .advantages__wrap {
@@ -746,6 +755,10 @@ textarea:-moz-placeholder {
   cursor: pointer;
   transition: 0.3s;
   background-image: url(../img/svg/play-btn.svg);
+}
+
+.footer {
+  padding-top: 6.25rem;
 }
 
 .grid {
@@ -973,6 +986,12 @@ textarea:-moz-placeholder {
   html {
     font-size: 8px;
   }
+  .header__search-btn_hidden {
+    display: block;
+  }
+  .header__search {
+    display: none;
+  }
   .nav-active {
     padding-left: 20px;
     display: none;
@@ -985,6 +1004,22 @@ textarea:-moz-placeholder {
     z-index: 200;
     background: #000000;
     box-shadow: -15px 4px 40px rgba(25, 70, 186, 0.1);
+  }
+  .header__active-registration {
+    padding-left: 20px;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 220px;
+    height: 236px;
+    transition: 0.6s all;
+    z-index: 200;
+    background: #000000;
+    box-shadow: -15px 4px 40px rgba(25, 70, 186, 0.1);
+  }
+  .header__nav_registration {
+    margin-top: 70px;
   }
   .header__active {
     padding-left: 20px;
